@@ -29,11 +29,16 @@
     }
 }
 
-.home {
+.home,
+.grid_img {
     background: url("../img/home.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.grid_img {
+    background: url('../img/bg.png');
 }
 
 #nav+nav {
@@ -42,4 +47,8 @@
 
 #nav:checked+nav {
     right: 0;
+}
+
+.img-box img {
+    transition: .5s;
 }
