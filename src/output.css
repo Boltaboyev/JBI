@@ -962,6 +962,10 @@ video {
 }
 
 @media (max-width: 550px){
+  .max-\[550px\]\:w-\[70\%\]{
+    width: 70%;
+  }
+
   .max-\[550px\]\:text-\[16px\]{
     font-size: 16px;
   }
@@ -1031,5 +1035,11 @@ video {
 @media (max-width: 420px){
   .max-\[420px\]\:text-center{
     text-align: center;
+  }
+}
+
+@media (max-width: 350px){
+  .max-\[350px\]\:w-\[85\%\]{
+    width: 85%;
   }
 }
